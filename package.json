@@ -13,6 +13,8 @@
     "build-ts": "tsc"
   },
   "devDependencies": {
+    "@types/chai": "^4.0.10",
+    "@types/mocha": "^2.2.45",
     "chai": "^4.1.2",
     "mocha": "^4.1.0",
     "nyc": "^11.4.1",
@@ -21,6 +23,5 @@
     "tslint": "^5.8.0",
     "typescript": "^2.6.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
