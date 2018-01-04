@@ -7,3 +7,8 @@ scripts:
 
 after_success:
     - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+
+after_failure:
+    - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+
+
